@@ -1,0 +1,126 @@
+# Replace the text below to customize your site
+site_name: Cours Vision
+docs_dir: 'docs/'
+site_dir: 'generated/'
+
+site_description: Bienvenue sur le site dédié au cours de vision d'UniLaSalle Amiens.
+site_author: Thomas FIOLET et Sebastian GOMEZ
+copyright: Copyright 2026 - Unilasalle Amiens - Creative Commons Attribution Non Commercial
+
+site_url: https://unifactory-lab.github.io/class-vision/
+repo_url: https://github.com/unifactory-lab/class-vision/
+repo_name: class-vision
+
+edit_uri: edit/main/docs/
+
+nav:
+  - Accueil :
+    - index.md
+    # - ./class/robotique-vision.md
+    # - ./class/Projet_robotique_3DExp.md
+
+  - Règlement :
+    - ./secu/securite.md
+    - ./secu/rangement.md
+    - ./secu/redaction.md
+
+  - Organisation :
+    - ./organisation/organisation.md
+    - ./organisation/competences.md
+    - ./organisation/ia_prohibee.md
+
+theme:
+  language: fr
+  custom_dir: './overrides/'
+  name: material
+  palette:
+    - scheme: unilasalle
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: "indivisa"
+    code: Ubuntu Mono
+  icon:
+    logo : material/book
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - search.suggest 
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - charts
+  - macros
+  - pseudocode
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - theme/p5.min.js
+  - theme/p5.fillGradient.js
+  - theme/config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/function-plot/dist/function-plot.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjs/1.5.2/math.min.js
+  - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js
+  
+
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.css
+  - stylesheets/pseudo-code.css
+  - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css
+
+
+markdown_extensions:
+- attr_list
+- pymdownx.keys
+- extra
+- meta
+- smarty
+- sane_lists
+- admonition
+- md_in_html
+- codehilite:
+    guess_lang: true
+- toc:
+    permalink: false
+- pymdownx.tasklist:
+    custom_checkbox: true
+    clickable_checkbox: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.details
+- pymdownx.tabbed
+- pymdownx.arithmatex:
+      generic: true
+- pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+      - name: vegalite
+        class: vegalite
+        format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+- neoteroi.cards
+
+
