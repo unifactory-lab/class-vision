@@ -39,7 +39,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <img class="img-no-border" src="images/opo0006a.jpg" alt="Hubble opo0006a">
 
     <center>[Formats](class/CH1_Formats/CH1_Formats.md){.md-button_fixed}
-    <center>[placeholder](){.md-button_fixed}
+    <center>[Opérations](class/CH2_Operations/CH2_Operations.md){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
 

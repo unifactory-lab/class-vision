@@ -3,6 +3,8 @@
 ## Qu'est-ce qu'une image ?
 En informatique, les images utilisées sont des "images matricielles". Des "cartes de points" ou "bitmap" en anglais. La carte de points est une grille ou un pavage, dont chaque élément est un carré appelé "pixel". Chaque pixel contient, dans la majorité des cas, une valeurs comprise entre 0 et 255 (parfois normalisé entre 0 et 1).
 
+Attention, il est à noter que le terme anglais "bitmap" peut designer aussi un tableau de donnée booléen, ou similairement, une image binarisée.
+
 <img class="img-no-border" src="../DigitalPicture.jpg" alt="Représentation d'une image bitmap">
 
 *Exemple d'image matricielle. L’auteur n’a pas pu être identifié automatiquement. Il est supposé qu'il s'agit de : Ivanoff~commonswiki (étant donné la revendication de droit d’auteur). — La source n’a pas pu être reconnue automatiquement. « Travail personnel » supposé (étant donné la revendication de droit d’auteur)., CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=2012046*
@@ -25,6 +27,17 @@ Les images couleurs sont constituées de trois couches. Il existe plusieurs faç
 
 *Le modèle de couleur RVB représenté sur un cube. L'axe horizontal x correspond aux valeurs de rouge, qui augmentent vers la gauche ; l'axe vertical y correspond aux valeurs de bleu, qui augmentent vers le bas à droite ; et l'axe vertical z correspond aux valeurs de vert, qui augmentent vers le haut. L'origine, de couleur noire, correspond au sommet masqué à la vue. By SharkD - Own work Source-code available at the POV-Ray Object Collection., CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=3375025*
 
+<div class="grid cards" markdown>
+
+-   __Couches RGB__
+
+    <img class="img-no-border-small" src="../separate_red.png" alt="Composante rouge.">
+    <img class="img-no-border-small" src="../separate_green.png" alt="Composante verte.">
+    <img class="img-no-border-small" src="../separate_blue.png" alt="Composante bleue.">
+    <img class="img-no-border-small" src="../photo.jpg" alt="Photo originale.">
+
+</div>
+
 - HSV
     - H/HUE :Teinte
     - S/SATURATION : Saturation
@@ -34,6 +47,16 @@ Les images couleurs sont constituées de trois couches. Il existe plusieurs faç
 
 *Cylindre TSV des couleurs. Par HSV_color_solid_cylinder.png: SharkDderivative work: SharkD  Talk — HSV_color_solid_cylinder.png, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=9801673*
 
+<div class="grid cards" markdown>
+
+-   __Couches RGB__
+
+    <img class="img-no-border-small" src="../separate_hue.png" alt="Teinte.">
+    <img class="img-no-border-small" src="../separate_sat.png" alt="Saturation.">
+    <img class="img-no-border-small" src="../separate_val.png" alt="Valeur.">
+    <img class="img-no-border-small" src="../photo.jpg" alt="Photo originale.">
+
+</div>
 - Lan
     - L/Lightness : Clarté
     - a & b : écart de couleur avec un gris de même clarté.
@@ -53,18 +76,23 @@ Le ratio d'aspect est le rapport entre la longueur et la largeur de l'image. Par
 
 *Comparaison de plusieurs formats d'image de films, les hauteurs des images étant forcées d'être identiques. By Original: Tyhart87 Vector: Andresconrado - Filmaspectratios.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=7555009*
 
-### Definition
-La définition d'une image est constitué du nombre de pixel horizontaux et verticaux de l'image.
+### Définition
+La définition d'une image est constitué du nombre de pixel horizontaux et verticaux de l'image. Ce terme est souvent interchangé avec la résolution de l'image.
 
-
-
-### Resolution
+### Résolution
+La résolution d'une image correspond, lorsqu'elle est imprimée sur un support physique, au nombre de pixel par unité de longueur. Elle est souvent exprimée en pixel par pouce (PPP, ou dot per inch, dpi, en anglais). Des résolutions classiques sont 300 dpi et 600 dpi.
 
 ### Système de coordonnée
+Les images utilisent un système de coordonées particulier. C'est un système à deux dimensions, nommées (u,v), (U,V), (x,y) ou encore (X,Y). Le système prend son origine en haut à gauche de l'image avec le pixel de coordonnées (1,1). La première coordonnée augmente en se déplaçant vers la droite, alors que la deuxième augmente en se déplaçant vers le bas.
 
+<img class="img-no-border" src="../dtv32.jpg" alt="Photo d'une main dans un salon sur laquelle est appliqué un algorithme de détection des features. Les coordoonées des coins de l'images et de certaines features sont montrées.">
 
-## Formats d'images, introduction à la compression
+*Photo d'une main dans un salon sur laquelle est appliqué un algorithme de détection des features. Les coordoonées des coins de l'images et de certaines features sont montrées. La définition de l'image est 256x256. Le pixel d'origine a donc pour coordonnée (1,1), le pixel à l'opposée de l'image, en bas à droite, a pour coordonnée (256,256)*
+
+Souvent, deux systèmes (u,v) et (x,y) sont différenciés. Bien qu'ils aient la même orientation, le système (u,v) colle à la description faîtes précedemment. Alors que le système (x,y) prends sont origine au niveau du "centre optique" de la caméra qui a capturé l'image, et ses coordonnées sont sans unités ou dans une unité de longueur comme les milimètres.
+
+<!-- ## Formats d'images, introduction à la compression
 
 ### Compression avec et sans perte
 
-### Les différents formats d'image
+### Les différents formats d'image -->

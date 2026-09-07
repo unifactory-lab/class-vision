@@ -142,6 +142,24 @@ img {
     background-color: rgba(255, 255, 255, 0);
 }
 
+.img-no-border-medium{
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+}
+
+.img-no-border-small{
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    width: 30%;
+}
+
+.img-no-border-tiny{
+    border-radius: 0 !important;
+    background-color: rgba(255, 255, 255, 0);
+    width: 15%;
+}
+
 .img-no-padding{
     padding: 0 !important;
 }
