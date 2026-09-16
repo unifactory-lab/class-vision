@@ -87,7 +87,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
     <img class="img-no-border" src="exo/TP/Masking/montre_final.png" alt="Image d'illustration.">
 
     <center>[Masking](exo/TP/Masking/masking.md){.md-button_fixed}
-    <center>[placeholder](){.md-button_fixed}
+    <center>[Compteur](exo/TP/Counter/counter.md){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
 
