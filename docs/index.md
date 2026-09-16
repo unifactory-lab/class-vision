@@ -36,11 +36,11 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 -   __PLACEHOLDER__
 
-    <img class="img-no-border" src="images/opo0006a.jpg" alt="Hubble opo0006a">
+    <img class="img-no-border" src="class/CH1_Formats/CIELAB_color_space_top_view.png" alt="Image d'illustration.">
 
     <center>[Formats](class/CH1_Formats/CH1_Formats.md){.md-button_fixed}
     <center>[Opérations](class/CH2_Operations/CH2_Operations.md){.md-button_fixed}
-    <center>[placeholder](){.md-button_fixed}
+    <center>[Filtres](class/CH3_Filtres/CH3_Filtres.md){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
 
 -   __PLACEHOLDER__
@@ -84,9 +84,9 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 -   __PLACEHOLDER__
 
-    <img class="img-no-border" src="images/opo0006a.jpg" alt="Hubble opo0006a">
+    <img class="img-no-border" src="exo/TP/Masking/montre_final.png" alt="Image d'illustration.">
 
-    <center>[placeholder](){.md-button_fixed}
+    <center>[Masking](exo/TP/Masking/masking.md){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
     <center>[placeholder](){.md-button_fixed}
@@ -128,7 +128,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 
 ## RESSOURCES
 
-### Livres
+<!-- ### Livres
 📖 [Robotics - T. Bajd, M. Mihelj, J. Lenarcic, A. Stanovnik & M. Munih - (2010)](bib/robotics_bajd.pdf){:download}
 
 📖 [Robots - John M. Jordan - The MIT Press (2016)](bib/robots_jordan.pdf){:download}
@@ -156,7 +156,7 @@ Le site est en cours de construction, si vous constatez des erreurs ou des infor
 📄 [Rapidly-Exploring Random Trees: A New Tool for Path Planning - Steven M. LaValle (1998)](bib/RRT_lavalle.pdf){:download}
 
 ### Vidéos
-🎞️ [Cours de Robotique - Jacques Gangloff (2016)](https://www.youtube.com/playlist?list=PLMXdciyMZwAAUlCQ_9mVs_CqQ9YaRTptX)
+🎞️ [Cours de Robotique - Jacques Gangloff (2016)](https://www.youtube.com/playlist?list=PLMXdciyMZwAAUlCQ_9mVs_CqQ9YaRTptX) -->
 
 
 
