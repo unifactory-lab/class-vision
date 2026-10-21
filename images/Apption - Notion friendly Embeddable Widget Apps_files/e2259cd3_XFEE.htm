@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style>html,body{margin:0;padding:0;height:100%;overflow:hidden;}</style>
+</head>
+
+<body id="bodyTag" data-theme="dark" style="background: rgb(25, 25, 25);">
+  <div style="position: relative; height: 100%; width: 100%;" id="embedContainer">
+  <div style="position: absolute; top: 0; right: 0; z-index: 100;">      <a target="_blank" class="apption-label" href="https://apption.co/?src=apption_label">
+        apption.co
+</a>
+<style>
+  .apption-label {
+    color: rgba(159, 166, 178, 1);
+    text-decoration: none;
+    font-size: 0.5rem;
+  }
+
+  .apption-label:hover {
+    color: #5850ec;
+    text-decoration: underline;
+  }
+</style></div>
+  TEST
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+    function inIframe () {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    var embedContainer = document.getElementById("embedContainer");
+    var embedURL = 'https://apption.co/embeds/e2259cd3';
+
+    if (inIframe()) {
+        // It's ok
+    } else {
+        embedContainer.innerHTML = `<div>
+<h1 style="text-decoration: none; color: black; font-weight: bold; font-size: 20px;" href="https://apption.co" target="_blank">🖼️️
+        Apption.co</a>
+<p style="font-size: 16px;">${'paste the url into your Notion page&#39;s /embed block.'}</p>
+<p><span style="font-weight: bold; font-size: 16px;">${embedURL}</span></p>
+</div>`
+    }
+</script>
+  <script type="text/javascript" charset="utf-8">
+    (function() {
+      var mql = window.matchMedia('(prefers-color-scheme: dark)');
+      var isDark = typeof mql.matches === 'boolean' && mql.matches;
+      document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      document.body.style.background = isDark ? 'rgb(25, 25, 25)' : 'white';
+    })()
+  </script>
+
+</body></html>
