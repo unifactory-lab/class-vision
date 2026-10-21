@@ -57,7 +57,7 @@ L'érosion peut-être considéré comme l'inverse de la dilatation. Le pixel ré
 
 ### Fermeture
 
-La fermeture est l'application d'une érosion suivie d'une dilatation. Elle peut permettre, entre autre, de réduire le bruit sur les parties blanches de l'image.
+La fermeture est l'application d'une dilatation suivie d'une érosion. Elle peut permettre, entre autre, de réduire le bruit sur les parties blanches de l'image.
 
 <img class="img-no-border" src="../Illustration_fermeture.png" alt="Fermeture par un carré 3×3 : les pixels blancs et gris font partie de l'ensemble résultant.">
 
@@ -65,7 +65,7 @@ La fermeture est l'application d'une érosion suivie d'une dilatation. Elle peut
 
 ### Ouverture
 
-L'ouverture est l'application d'une dilatation suivie d'une érosion. Elle peut permettre, entre autre, de réduire le bruit sur les parties noires de l'image.
+L'ouverture est l'application d'une erosion suivie d'une dilatation. Elle peut permettre, entre autre, de réduire le bruit sur les parties noires de l'image.
 
 <img class="img-no-border" src="../Illustration_ouverture.png" alt="Ouverture par un carré 3×3 : seuls les pixels blancs font partie de l'ensemble résultant">
 
